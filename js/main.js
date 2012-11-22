@@ -1,8 +1,6 @@
 require({
     paths: {
-        'jquery': 'one/libs/jquery',
-        'one': '/js/one',
-        'two': '/js/two'
+        'jquery': 'one/libs/jquery'
     }
 });
 require([ 'jquery', 'one/app1', 'two/app2' ], function( $, one, two ){
